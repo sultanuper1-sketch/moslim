@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع ذكرى - للنصيحة والتزكية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- الشريط العلوي -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">🌿 ذكرى</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" class="active">الرئيسية</a></li>
+                    <li><a href="#daily-tip">نصائح اليوم</a></li>
+                    <li><a href="#categories">الأقسام</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <span>Night</span> <input type="checkbox">
+            </div>
+        </div>
+    </header>
+
+    <!-- البانر الرئيسي -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="container hero-content">
+                <h1>وَذَكِّرْ فَإِنَّ الذِّكْرَىٰ تَنفَعُ الْمُؤْمِنِينَ</h1>
+                <p>واحتك الإيمانية للنصيحة الصادقة، والتزكية اليومية، والعودة إلى الله بيقين.</p>
+                <div class="hero-buttons">
+                    <a href="#daily-tip" class="btn-primary">اقرأ نصيحة اليوم</a>
+                    <a href="#categories" class="btn-secondary">تصفح الأقسام</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بطاقة نصيحة اليوم -->
+    <section id="daily-tip" class="daily-tip-container container">
+        <div class="tip-card-main">
+            <span class="tip-badge">رسالة إيمانية</span>
+            <h2>حاسب نفسك قبل أن تحسَب</h2>
+            <p>أخي المسلم، اختلِ بنفسك دقائق قبل النوم، وراجع يومك: هل أدّيت صلواتك في أوقاتها؟ هل آذيت أحداً بلسانك؟ استغفر لذنبك، وتذكر أن القلوب تصدأ كما يصدا الحديد، وجلاؤها استغفار الله وتلاوة كتابه.</p>
+            <div class="tip-actions">
+                <a href="#contact" class="btn-primary">شارك بنصيحة</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- أقسام الموقع والنصائح -->
+    <section id="categories" class="categories container">
+        <div class="section-title">
+            <h2>أقسام الموقع ونصائحه</h2>
+            <p>محتوى إيماني وتربوي منقى لقلبك وبيتك</p>
+        </div>
+        <div class="grid">
+            
+            <!-- القسم الأول -->
+            <div class="cat-card">
+                <div>
+                    <div class="card-icon">📖</div>
+                    <h3>رقائق وقلوب</h3>
+                    <span class="card-subtitle">تزكية النفس وتهذيبها</span>
+                    <p>أخي المسلم، الدنيا ممر وليست مستقر، وما عند الله خيرٌ وأبقى. اجعل من خلوتك مع الله محطة لشحن إيمانك، وتذكر قول النبي ﷺ: (كُن في الدنيا كأنك غريب أو عابر سبيل).</p>
+                </div>
+                <a href="#" class="btn-open">فتح القسم ↗</a>
+            </div>
+            
+            <!-- القسم الثاني: صحح خطأك (ينقل للصفحة الخاصة به) -->
+            <div class="cat-card">
+                <div>
+                    <div class="card-icon">⚠️</div>
+                    <h3>صحح خطأك</h3>
+                    <span class="card-subtitle">تنبيهات شرعية نافعة</span>
+                    <p>من أخطاء بعض المصلين العجلة في الركوع والسجود وعدم إعطاء الأعضاء استقرارها. اضغط على الزر أدناه لعرض كل التنبيهات.</p>
+                </div>
+                <a href="correct-mistakes.html" class="btn-open">فتح القسم ↗</a>
+            </div>
+
+            <!-- القسم الثالث -->
+            <div class="cat-card">
+                <div>
+                    <div class="card-icon">☀️</div>
+                    <h3>من سنن الهدي</h3>
+                    <span class="card-subtitle">إحياء السنن المهجورة</span>
+                    <p>لا تفرّط في ركعتي الضحى، فهي صلاة الأوابين وتعدل تصدّقك عن كل مفصل في جسدك (360 صدقة). احرص أيضاً على سنة الوضوء قبل النوم.</p>
+                </div>
+                <a href="#" class="btn-open">فتح القسم ↗</a>
+            </div>
+
+            <!-- القسم الرابع -->
+            <div class="cat-card">
+                <div>
+                    <div class="card-icon">🤲</div>
+                    <h3>أدعية وأذكار</h3>
+                    <span class="card-subtitle">الحصن الحصين</span>
+                    <p>لا تغفل عن أذكار الصباح والمساء، فهي درعك الذي يحميك من كل سوء بإذن الله. وداوم على الاستغفار وأوقات الاستجابة في السجود.</p>
+                </div>
+                <a href="#" class="btn-open">فتح القسم ↗</a>
+            </div>
+
+            <!-- القسم الخامس -->
+            <div class="cat-card">
+                <div>
+                    <div class="card-icon">💍</div>
+                    <h3>نصائح زوجية</h3>
+                    <span class="card-subtitle">بناء المودة والرحمة</span>
+                    <p>الحياة الزوجية السعيدة تقوم على التغافل والكلمة الطيبة. تذكر دائماً أن تبادل الاحترام وتقدير الجهود اليومية يصنعان بيتاً آمناً.</p>
+                </div>
+                <a href="#" class="btn-open">فتح القسم ↗</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- قسم اتصل بنا -->
+    <section id="contact" class="contact-section container">
+        <div class="section-title">
+            <h2>اتصل بنا</h2>
+            <p>نسعد بتواصلكم وإرسال نصائحكم لبريدنا: loolhksa@gmail.com</p>
+        </div>
+        <div class="contact-card">
+            <form action="https://formspree.io/f/loolhksa" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">الاسم الكريم:</label>
+                    <input type="text" id="name" name="name" required placeholder="أدخل اسمك...">
+                </div>
+                <div class="form-group">
+                    <label for="email">بريدك الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">نص الرسالة أو النصيحة:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="اكتب رسالتك أو نصيحتك هنا..."></textarea>
+                </div>
+                <button type="submit" class="btn-submit">إرسال إلى البريد 📨</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <h3>موقع ذكرى</h3>
+                <p>مشروع دعوي هادف يسعى لنشر الكلمة الطيبة والنصيحة الخالصة.</p>
+            </div>
+            <div>
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#daily-tip">نصيحة اليوم</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>النشرة البريدية</h3>
+                <p>تواصل معنا عبر البريد: loolhksa@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة لموقع ذكرى © 2026 - الدال على الخير كفاعله</p>
+        </div>
+    </footer>
+
+</body>
+</html>
